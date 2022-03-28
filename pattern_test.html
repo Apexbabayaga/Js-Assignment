@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern test</title>
+</head>
+
+<body>
+    <script>
+        let a, b;
+        for (a = 1; a <= 5; a++) {
+            for (b = 1; b <= a; b++) {
+                document.write(b + "#&nbsp;&nbsp;&nbsp;");
+            }
+            document.write("<br>");
+        }
+    </script>
+    <script>
+        let d, f, chr;
+        for (d = 1; d <= 6; d++) {
+            for (f = 1; f < d; f++) {
+                chr = chr + ("*");
+            }
+            console.log(chr);
+            chr = " ";
+        }
+    </script>
+    <script>
+        for (p = "*"; p.length < 6; p += "*") {
+            console.log(p);
+        }
+    </script>
+    <script>
+        for (o = "*"; o.length < 5; o += "*") {
+            console.log(o);
+        }
+    </script>
+</body>
+
+</html>

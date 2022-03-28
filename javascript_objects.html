@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript objects</title>
+</head>
+
+<body>
+    <script>
+        let car = {
+            car_brand: "Tesla",
+            car_model: "Model 3",
+            car_price: 400000,
+            car_speed: "10km/h",
+            car_color: "Black",
+
+            carAutoPilot: function() {
+                console.log("This car has auto pilot");
+            }
+        }
+        console.log(car.car_brand);
+        console.log(car.car_speed);
+
+        let cat = {
+            cat_color: "Brown",
+            cat_speed: "200km/h",
+            cat_height: "3_inches",
+            cat_weight: "3kg",
+            cat_eye_color: "Blue",
+
+            catsHaveClaws: function() {
+                console.log("This cat has claws");
+            }
+        }
+        console.log(cat.cat_color);
+        console.log(cat.cat_height);
+
+        let food = {
+            food_type: "Beans",
+            class: "Protein",
+            season: "Rainy",
+            color: "White",
+            food_size: "Small",
+
+            beansIsProtein: function() {
+                console.log("This is bean cake");
+            }
+        }
+        console.log(food.class);
+        console.log(food.food_type);
+
+        let laptop = {
+            laptop_brand: "HP",
+            laptop_model: "EliteBook 6930p",
+            laptop_hdd: "160gb",
+            laptop_ram: "2gb",
+            laptop_screen_size: "11_inches",
+
+            laptopKeyboardLight: function() {
+                console.log("This laptop has keyboard light");
+            }
+        }
+        console.log(laptop.laptop_model);
+        console.log(laptop.laptop_hdd);
+
+        let phone = {
+            phone_brand: "Itel A16 Plus",
+            phone_model: "A16 Plus",
+            phone_size: "160x200",
+            phone_hdd: "16gb",
+            phone_ram: "1gb",
+
+            phoneSpeed: function() {
+                console.log("This phone has a slow speed");
+            }
+        }
+        console.log(phone.phone_model);
+        console.log(phone.phone_ram);
+    </script>
+</body>
+
+</html>
